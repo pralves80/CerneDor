@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CerneDor", "CerneDor\CerneDor.csproj", "{8332863B-27BA-4EBA-8786-6F3C5C9726DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8332863B-27BA-4EBA-8786-6F3C5C9726DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8332863B-27BA-4EBA-8786-6F3C5C9726DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8332863B-27BA-4EBA-8786-6F3C5C9726DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8332863B-27BA-4EBA-8786-6F3C5C9726DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A83C1A4-5FEF-41D8-9D36-87E7FB5E9482}
+	EndGlobalSection
+EndGlobal
