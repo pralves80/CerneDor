@@ -8,16 +8,16 @@ using CerneDor.Models;
 
 namespace CerneDor.Controllers
 {
-	public class HomeController : Controller
+	public class HomeController : Controller  // Controlador
 	{
-		public IActionResult Index()
+		public IActionResult Index()  
 		{
 			return View();
 		}
 
-		public IActionResult About()
+		public IActionResult About()  // Ação
 		{
-			ViewData["Message"] = "Your application description page.";
+			ViewData["Message"] = "Your application description page.";  // Objeto, Chave, Valor
 
 			return View();
 		}
