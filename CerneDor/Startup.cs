@@ -37,7 +37,8 @@ namespace CerneDor
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
 		    services.AddDbContext<CerneDorContext>(options =>
-		            options.UseSqlServer(Configuration.GetConnectionString("CerneDorContext")));
+		            options.UseMySql(Configuration.GetConnectionString("CerneDorContext"), builder => 
+					builder.MigrationsAssembly("CerneDor") ));
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
